@@ -1,0 +1,67 @@
+header{
+    position:fixed;
+    width: 100%;
+    
+}
+.left{
+    position:absolute;
+    width:100%;
+    text-align:left;
+    left:30px;
+}
+.iconImage{
+    border-right: 1px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-right: solid;
+    border-right-color:lightgrey;
+    padding-right: 15px;
+    width: 30px;
+}
+.logoImage{
+    margin-bottom: 25px;
+    padding-left: 12px;
+    width: 125px;
+}
+.middle{
+    position:absolute;
+    top:10px;
+    width:100%;
+    text-align:center;
+}
+input{
+    text-align:center;
+    background-color:rgb(235, 233, 233);
+    border:1px;
+    border:solid;
+    border-color:lightgrey;
+    width:200px;
+    padding:5px;
+    color:black;
+}
+::placeholder{
+    color:grey;
+}
+input:focus{
+    background-color:darkgrey;
+}
+button{
+    display:none;
+}
+.right{
+    position:absolute;
+    top:10px;
+    width:100%;
+    text-align:right;
+    right:100px;
+}
+.compassImage{
+    padding-left:30px;
+}
+.heartImage{
+    padding-left:30px;
+}
+.userImage{
+    padding-left:30px;
+}
