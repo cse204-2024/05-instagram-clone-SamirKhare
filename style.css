@@ -1,17 +1,26 @@
+body{
+    background-color: rgb(228, 227, 227);
+    font-family:Arial, Helvetica, sans-serif;
+}
 header{
     position:fixed;
     width: 100%;
-    
+    height: 5%;
+    background-color: white;
+    top:0px;
+    right: -5px;
+    padding: 10px;
+    z-index: 1;
 }
 .left{
     position:absolute;
-    width:100%;
     text-align:left;
-    left:30px;
+    left:70px;
+    top:-10px;
 }
 .iconImage{
     border-right: 1px;
-    margin-bottom: 30px;
+    margin-bottom: 17px;
     margin-left: 10px;
     margin-top: 10px;
     border-right: solid;
@@ -20,7 +29,8 @@ header{
     width: 30px;
 }
 .logoImage{
-    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     padding-left: 12px;
     width: 125px;
 }
@@ -52,7 +62,6 @@ button{
 .right{
     position:absolute;
     top:10px;
-    width:100%;
     text-align:right;
     right:100px;
 }
@@ -64,4 +73,111 @@ button{
 }
 .userImage{
     padding-left:30px;
+}
+.post1{
+    height:900px;
+    width:770px;
+    background-color: white;
+    position:absolute;
+    top:70px;
+    left:70px;
+    border-style: solid;
+    border-width:2px;
+    border-color: lightgray;
+}
+.Profile{
+    border-radius:50%;
+    height:50px;
+    width:50px;
+    position:absolute;
+    left:30px;
+}
+.ProfileName{
+    position: absolute;
+    left:90px;
+    top:30px;
+}
+.Photo1{
+    position:absolute;
+    top:80px;
+    width:100%;
+}
+.leftMetrics{
+    position:absolute;
+    bottom:190px;
+}
+.heartPost{
+    padding-left:20px;
+}
+.commentPost{
+    padding-left:20px;
+}
+.uploadPost{
+    padding-left:20px;
+}
+.rightMetrics{
+    position:absolute;
+    right:20px;
+    bottom:190px;
+}
+.numberLikes{
+    position:absolute;
+    bottom:160px;
+    left:20px;
+    font-size: larger;
+}
+.postCaption{
+    position:absolute;
+    bottom:130px;
+    left:20px;
+    font-size:larger;
+}
+.hashtag{
+    color:rgb(76, 104, 215)
+}
+.postTime{
+    position:absolute;
+    bottom:100px;
+    left:20px;
+    font-size:larger;
+    color:grey;
+    
+}
+.splittingLine{
+    border-top-width:1px;
+    border-top-color:lightgrey;
+    border-top-style:solid;
+    position:absolute;
+    bottom:80px;
+    width:95%;
+    left:20px;
+}
+.commentAdd{
+    position:absolute;
+    bottom:30px;
+    left:20px;
+    font-size:larger;
+    color:grey;
+}
+.dots{
+    position:absolute;
+    right:8px;
+    bottom:15px;
+}
+.post2{
+    height:900px;
+    width:770px;
+    background-color: white;
+    position:absolute;
+    top:990px;
+    left:70px;
+    border-style: solid;
+    border-width:2px;
+    border-color: lightgray;
+}
+.Photo2{
+    position:absolute;
+    top:80px;
+    width:100%;
+    height:580px;
 }
