@@ -433,6 +433,7 @@ a:link{
     }
     .post1{
         position:absolute;
+        left:87px;
         width:600px;
         height:770px;
     }
