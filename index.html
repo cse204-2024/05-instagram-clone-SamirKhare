@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <title>
-        Instagram Clone
+        Retro Instagram Clone
     </title>
     <meta name="description" content="This webpage contains a copy of an old version
     of Instagram from 2018. It is meant to be a visual recreation with no actual
@@ -12,6 +12,8 @@
     It also has a sidebar to replicate the story element. Finally, the webpage has
     responsiveness up to a min width of 375px with the sidebar disappearing
     and posts centering >760px.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Code to enable media query to work from https://www.w3schools.com/css/css_rwd_viewport.asp -->
 </head>
 <body>
     <header>
@@ -42,7 +44,6 @@
                 </a>
         </div>
     </header>
-    <section class="mainContent">
     <div class="post1">
             <img src="images/landscape.jpeg" alt="LandscapeProfile" title="Landscape Profile" class="Profile">
             <span class="ProfileName"><strong>LandscapesAreCool</strong></span>
@@ -108,7 +109,6 @@
             </div>
             <img src="images/arrow.png" alt="Arrow" title="Next arrow" class="arrow">
         </div>
-    </section>
     <section class="sideBar">
         <div class="sideBarContainer">
         <img src="images/T-Pain.jpeg" alt="T-Pain" title="T-Pain Fan" class="userProfile">
@@ -127,7 +127,6 @@
                 <span class="storyTime">40 minutes ago</span>
                 </span>
                 </div>
-                <!-- /* Code for the gradient border from https://css-tricks.com/gradient-borders-in-css/*/ -->
             <div class="story">
                 <div class="storyBorderWrap">
                 <img src="images/Pickle.jpeg" alt="Pickle" title="Pickle" class="storyPhoto">
